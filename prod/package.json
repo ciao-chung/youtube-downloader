@@ -1,0 +1,12 @@
+{
+  "name": "ciao-youtube-downloader",
+  "version": "1.0.2",
+  "description": "Youtube downloader",
+  "main": "index.js",
+  "repository": "https://github.com/ciao-chung/youtube-downloader",
+  "author": "Ciao Chung <ciao0958@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "ciao-youtube-downloader": "./index.js"
+  }
+}

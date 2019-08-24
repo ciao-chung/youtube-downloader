@@ -56,7 +56,9 @@ class AppKernel {
   _setupConfigFile(command) {
     if(typeof command.configFile != 'object') return
     const configArgName = command.configFile.property || 'config'
-    const configFilePath = resolve(args[configArgName])
+    const configPath = args[configArgName]
+    if(!configPath) return
+    const configFilePath = resolve(configPath)
     const configFileType = extname(configFilePath)
     if(configFileType != '.json' && configFileType != '.yml') {
       log(`Config file only support json/yaml format`, 'red')

@@ -1,9 +1,9 @@
 import AppKernel from 'AppKernel'
-import ExampleCommand from 'Commands/ExampleCommand'
+import Mp3Command from 'Commands/Mp3Command'
 class App extends AppKernel {
   setup() {
     this.commandList = [
-      ExampleCommand,
+      Mp3Command,
     ]
   }
 }

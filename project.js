@@ -1,3 +1,3 @@
 module.exports = {
-  name: 'nodejs-webpack-boilerplate',
+  name: 'ciao-youtube-downloader',
 }
